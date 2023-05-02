@@ -46,8 +46,9 @@ const Navbar = () => {
         <IconButton
           size="md"
           icon={isOpen ? <CloseIcon /> : <HamburgerIcon />}
-          display={{ 
-            md: "none" }}
+          display={{
+            md: "none",
+          }}
           onClick={isOpen ? onClose : onOpen}
         />
 
@@ -74,8 +75,42 @@ const Navbar = () => {
               onClick={() => toggleColorMode()}
             />
           </NavLink>
+          <Button
+            as={ReactLink}
+            to="/login"
+            p={2}
+            fontSize="sm"
+            fontWeight={400}
+            variant="link"
+          >
+            Sign In
+          </Button>
+
+          <Button
+            as={ReactLink}
+            to="/registration"
+            p={2}
+            fontSize="sm"
+            fontWeight={600}
+            _hover={{ bg: "orange.400" }}
+            bg="orange.500"
+            color="white"
+          >
+            Sign Up
+          </Button>
         </Flex>
       </Flex>
+      {isOpen ? (
+        <Box pb={4} display={{ md: "none" }}>
+          <Stack as="nav" spacing={4}>
+            {links.map((link) => (
+              <NavLink key={link.linkName} path={link.path}>
+                {link.linkName}
+              </NavLink>
+            ))}
+          </Stack>
+        </Box>
+      ) : null}
     </Box>
   );
 };
