@@ -40,5 +40,5 @@
 
 # Process
 
-- Created the Navigation bar
+- Created the Navigation bar with light/dark mode
 
