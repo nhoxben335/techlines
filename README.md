@@ -26,20 +26,19 @@
 
 - Version control using Git with Github
 
-# NPM
-
+# Front-End Pakages
 - chakra
 - react-router-dom
 - formik
 - yup
 - react-icons
 
-# Short-cut to create jsx file
-
-- rafce
-
 # Back-End Pakages
 - npm init
 - npm i express 
 - npm i mongoose 
 - npm i dotenv
+
+# Short-cut to create jsx file
+- rafce
+
