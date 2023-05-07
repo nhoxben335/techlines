@@ -13,6 +13,20 @@
 - Using Express
 - Version control using Git with Github
 
+# Process
+- 1. Install NodeJS, GIT, and Extension
+- 2. Create the Navbar
+- 3. Create Product Screen
+- 4. Create Prodduct Components
+- 5. Set-up database with MongoDB (Compass and Atlas) 
+
+# Extensions 
+- ES7/React/Redux/GRaphQL/React-Native
+- JavaScript (ES6) code snippet
+- npm Intellisense
+- Prettier
+- vscode-icons
+
 # Front-End Pakages (npm start)
 - chakra
 - react-router-dom
