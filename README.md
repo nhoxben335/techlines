@@ -37,8 +37,3 @@
 # Short-cut to create jsx file
 
 - rafce
-
-# Process
-
-- Created the Navigation bar with light/dark mode
-
