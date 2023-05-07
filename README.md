@@ -19,6 +19,7 @@
 - Create Product Screen
 - Create Prodduct Components
 - Set-up database with MongoDB (Compass and Atlas) 
+- Creating Model and Schema
 
 # Extensions 
 - ES7/React/Redux/GRaphQL/React-Native
