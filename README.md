@@ -42,4 +42,4 @@
 - npm init
 - npm i express 
 - npm i mongoose 
-- npm dotenv
+- npm i dotenv
