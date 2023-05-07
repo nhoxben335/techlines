@@ -37,3 +37,7 @@
 # Short-cut to create jsx file
 
 - rafce
+
+# Back-End pakages
+- npm i express 
+- npm i mongoose 
