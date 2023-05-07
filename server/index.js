@@ -7,7 +7,7 @@ dotenv.config();
 connectToDatabase();
 const app = express();
 
-// Use the express middleware
+// Use the express
 app.use(express.json());
 
 // Add port listener
