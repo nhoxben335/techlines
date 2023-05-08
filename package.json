@@ -11,6 +11,7 @@
     "bson": "^5.2.0",
     "bytes": "^3.1.2",
     "call-bind": "^1.0.2",
+    "concurrently": "^8.0.1",
     "content-disposition": "^0.5.4",
     "content-type": "^1.0.5",
     "cookie": "^0.5.0",
@@ -82,8 +83,9 @@
     "whatwg-url": "^11.0.0"
   },
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1",
-    "server": "node server/index.js"
+    "client": "npm run start --prefix client",
+    "server": "node server/index.js",
+    "app": "concurrently npm \"npm run server\" \"npm run client\""
   },
   "repository": {
     "type": "git",
