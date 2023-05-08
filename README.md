@@ -37,6 +37,7 @@
 - formik
 - yup
 - react-icons
+- reduxjs/toolkit
 
 # Back-End Pakages (npm run server)
 - npm init
