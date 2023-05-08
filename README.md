@@ -21,6 +21,7 @@
 - Set-up database with MongoDB (Compass and Atlas) 
 - Create Model and Schema
 - Create Routes
+- Generate mock data and import to compass
 
 # Extensions 
 - ES7/React/Redux/GRaphQL/React-Native
