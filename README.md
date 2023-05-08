@@ -38,6 +38,7 @@
 - yup
 - react-icons
 - reduxjs/toolkit
+- axios
 
 # Back-End Pakages (npm run server)
 - npm init
