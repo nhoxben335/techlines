@@ -24,6 +24,7 @@
 - Generate mock data and import to compass
 - Add npm i concurrently which make run mutiple script
 - Create redux store, product slice,...
+- Fetch data from database
 
 # Extensions 
 - ES7/React/Redux/GRaphQL/React-Native
