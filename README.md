@@ -23,6 +23,7 @@
 - Create Routes
 - Generate mock data and import to compass
 - Add npm i concurrently which make run mutiple script
+- Create redux store, product slice,...
 
 # Extensions 
 - ES7/React/Redux/GRaphQL/React-Native
