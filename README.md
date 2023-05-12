@@ -27,7 +27,7 @@
 - Fetch data from database
 
 # Extensions 
-- ES7/React/Redux/GRaphQL/React-Native
+- ES7/React/Redux/GraphQL/React-Native
 - JavaScript (ES6) code snippet
 - npm Intellisense
 - Prettier
