@@ -13,7 +13,7 @@
 - Using Express
 - Version control using Git with Github
 
-# Process
+# Process ("npm run app" at the techlines folder to run the app)
 - Install NodeJS, GIT, and Extension
 - Create the Navbar
 - Create Product Screen
